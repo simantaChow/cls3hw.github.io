@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Index</title>
+</head>
+<body>
+    <div class="main">
+        <div class="pagehedding"><h2>Job Application Form</h2></div>
+        <div class="mainHeading">
+            <form action="">
+                <label for="full_name">
+                    Full Name : <input type="text" name="full_name" placeholder="Full Name" id="full_name">
+                </label> <br>
+                <label for="father's_name">
+                    Father's Name : <input type="text" name="father's_name" placeholder="Father's Name" id="father's_name">
+                </label> <br>
+
+                <label for="mother's_name">
+                    Mother's Name : <input type="text" name="mother's_name" placeholder="Mother's Name" id="mother's_name">
+                </label> <br>
+
+                <label for="DOB"> Date of Birth :
+                    <input type="date" name="DOB" id="DOB">
+                </label> <br>
+
+                <label for="age">Age <input type="number" name="age" id="age" min="18" max="30"></label> <br>
+
+                <label for="NID"> NID or Birth Cer. No. :
+                    <input type="text" name="NID" id="NID">
+                </label> <br>
+
+                <label for="nationality">Nationality
+                    <select name=nationality" id="nationality">
+                    <option value="">Option</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="India">India</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Bhutan">Bhutan</option>
+                    <option disabled value="Pakistan">Pakistan</option>
+                    
+                    </select>
+
+                </label> <br>
+
+                <label for="gender" id="gender">Gender
+                    <label for="male"> Male
+                        <input type="radio" name="gender" id="male">
+                    </label>
+
+                    <label for="female"> Female
+                        <input type="radio" name="gender" id="female">
+                    </label>
+                    <label for="others"> Others
+                        <input type="radio" name="gender" id="others">
+                    </label>
+                    
+                </label>
+
+                <label for="permanent_address">Permanent Address <textarea name="permanent_address" id="permanent_address" cols="30" rows="5"></textarea></label>
+
+                <label for="present_address">Present Address <textarea name="present_address" id="present_address" cols="30" rows="5"></textarea></label> <br>
+
+                <label for="Education">Education
+                    <input type="text" name="education" id="education">
+                </label>
+
+                <fieldset>
+                    <legend>Contact:</legend>
+                    <label for="email">
+                        E-mail:</label>
+                    <input type="email" id="email" name="email"><br>
+
+                    <label for="mobile">Mobile No.
+                        <input type="text" name="mobile" id="mobile">
+                    </label><br>
+
+                    <label for="fb">Facebook url.
+                        <input type="url" name="fburl" id="fburl">
+                    </label>
+                   </fieldset> <br>
+
+                   <label for="pppic">Please Upload Formal Pic : <input type="file" name="ppsizepic" id="ppsizepic"></label><br>
+
+                   <label for="pppic">Please Upload Signature : <input type="file" name="ppsizepic" id="ppsizepic"></label><br>
+
+                   
+                   <label for="agreement"">
+                    I am agree with all terms and conditions :
+                    <input type="checkbox" name="agree" id="agree">
+                </label>
+                
+                <div class="btn">
+                 <button type="submit">Submit</button>
+                 <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+
+        
+    </div>
+</body>
+</html>

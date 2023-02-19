@@ -1,0 +1,65 @@
+*{padding: 0%; margin: 0%;}
+
+
+body{
+    background: rgb(28, 128, 128);
+    font-family: 'Prompt', sans-serif;
+}
+.main{
+    background-color: rgb(230, 224, 224);
+    height: auto;
+    width: 1000px;
+    margin: auto;  
+}
+
+.pagehedding{
+background-color: rgb(7, 236, 129);
+color: rgb(245, 6, 6);
+text-align: center;
+height: 50px;
+padding-top: 10px;
+}
+form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+input{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 20px;
+    padding-left: 20px;
+}
+textarea{
+    margin-top: 20px;
+}
+form{
+    padding-bottom: 20px;
+}
+
+select{
+    font-size: medium;
+}
+
+fieldset{
+    width: 80%;
+    margin: auto;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: medium;
+    background-color: blue;
+    font-weight: bold;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+.btn{
+    margin-left: 600px;
+}
